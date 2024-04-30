@@ -1,5 +1,5 @@
-# SR-FLIPFLOP-USING-CASE
-
+# EXPERIMENT : SR-FLIPFLOP-USING-CASE
+# DATE :
 **AIM:**
 
 To implement  SR flipflop using verilog and validating their functionality using their functional tables
@@ -47,8 +47,6 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 
 
 
-Developed by:Abinaya A
-Reg no:212223040003
 ```
 module SR_flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level using ‘case’ 
   input s,r,clk, reset;
@@ -70,6 +68,9 @@ module SR_flipflop(q, q_bar, s,r, clk, reset);//SR Flip Flop Behavioral Level us
   end
   assign q_bar = ~q;
 endmodule
+
+Developed by: S.HARISH
+Reg no:212223040062
 ```
 **RTL LOGIC FOR FLIPFLOPS**
 ![de1](https://github.com/23002776/SR-FLIPFLOP-USING-CASE/assets/145742657/33a04914-be9a-4a83-8654-d5da50241738)
